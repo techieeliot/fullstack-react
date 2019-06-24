@@ -2,7 +2,7 @@
 ## w3Develops React Study Group Summer 2019 ##
 
 ***Read & Code:***
-  * __highest priority__ [Fullstack Open React - Part 0](https://fullstackopen.com/en/part0)
+  * __Highest Priority:__ [Fullstack Open React - Part 0](https://fullstackopen.com/en/part0)
   * [The react tutorial](https://reactjs.org/tutorial/tutorial.html)
   * [freeCodeCamp - The React Handbook](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)
 
