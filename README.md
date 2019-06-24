@@ -1,6 +1,7 @@
 # Fullstack Open React #
 ## w3Develops React Study Group Summer 2019 ##
 
+### Sprint 1 - 23/6/2019 to 8/7/2019
 ***Read & Code:***
   * __Highest Priority:__ [Fullstack Open React - Part 0](https://fullstackopen.com/en/part0)
   * [The react tutorial](https://reactjs.org/tutorial/tutorial.html)
