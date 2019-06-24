@@ -1,4 +1,4 @@
-### Fullstack Open React ###
+# Fullstack Open React #
 ## w3Develops React Study Group Summer 2019 ##
 
 ***Read & Code:***
