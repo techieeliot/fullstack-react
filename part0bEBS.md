@@ -8,7 +8,7 @@
 
 * This diagram below was very useful for understanding http requests.
 
-![](images/http-requests.png =250x)
+![](https://github.com/w3develops-university/fullstack-react/images/http-requests.png =250x)
 
 
 * 
