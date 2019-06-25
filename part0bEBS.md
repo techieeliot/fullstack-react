@@ -8,7 +8,7 @@
 
 * This diagram below was very useful for understanding http requests.
 
-![](./images/http-request =250x)
+![](images/http-requests.png =250x)
 
 
 * 
