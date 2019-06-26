@@ -8,7 +8,7 @@
 
 * This diagram below was very useful for understanding http requests.
 
-![](https://github.com/w3develops-university/fullstack-react/images/http-requests.png =250x)
+* ![Diagram-7e](https://github.com/w3develops-university/fullstack-react/images/http-requests.png =250x)
 
 
-* 
+* [The readyState == 4 means the operation is complete](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState)
