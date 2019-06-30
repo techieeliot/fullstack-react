@@ -1,7 +1,7 @@
 # Fullstack Open React #
 ## w3Develops React Study Group Summer 2019 ##
 
-### Sprint 1 - 23/6/2019 to 8/7/2019
+### Sprint 1 - June 23, 2019 to July 8, 2019
 ***Review ES6 Javascript***
  * [A re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
  * [Exploring JS - ES6](https://exploringjs.com/es6/)
