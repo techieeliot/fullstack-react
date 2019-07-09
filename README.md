@@ -49,6 +49,7 @@
 
 Date:        | Task Details                                                        | Priority         |Status
 ------------ | --------------------------------------------------------------------|------------------|-----------------|
-             | 1.d) A more complex state, debugging React apps                                          |                  |                            |   - Complex state
-             |  - Handling arrays 
-             |   - Conditional rendering            |
+             | ## 1.d) A more complex state, debugging React apps ##               |                  |                 |   -                          |  - Complex state                                                    |                  |                 |
+             |  - Handling arrays                                                  |                  |                 |
+             |   - Conditional rendering                                           |                  |                 |
+             |                                                                     |                  |                 |
