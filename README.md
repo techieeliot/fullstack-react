@@ -33,7 +33,7 @@
 # Fullstack Open React #
 ## w3Develops React Study Group Summer 2019 ##
 ##  Sprint 2 - July 10- 22,2019 ##
-
+### 1.d:) A more complex state, debugging React app ###
 ------
 
 | Date  | Task Details  |  Priority | Status  |
