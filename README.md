@@ -37,13 +37,7 @@
 ------
 
 
-     Date | Task Details   | Priority | Status
------------- | -------------
-| ## This is an <h2> tag | High |Not Started
-|  - [x] Complex state |High|Not Started
-| - [x] Handling arrays|High|Not Started
- | - [x] Handling arrays|High|Not Started
- | - [ ] Exercises|High|Not Started
+
 
 | Date  | Task Details  |  Priority | Status  |
 |---|---|---|---|
