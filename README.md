@@ -43,7 +43,7 @@
 |	         |              on edX |          |         |
 |          |                     |          |         |
 |&#10004;  | webpage)            |          |         |
-| &#10004;  | Milestone          |          |         |    
-| &#10004; | Course | Learn to use          |         |
+| &#10004; | Milestone           |          |         |    
+| &#10004; | Course              | Learn to |         |         
 
 
