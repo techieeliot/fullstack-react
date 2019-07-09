@@ -38,18 +38,11 @@
 
 
 
-| Date:                |    Learn React with Kent C. Dodds](https://youtu.be/zthIU   | Priority        | Status          |                  |                      |                                                             |                 |                 |
-|----------------------| ------------------------------------------------------------|-----------------|-----------------|                 | &#10004;             |    hhhj                                                         |                 |                 |
-|                      |                                                             |                 |                 | 
-|	                     |           on edX                                            |                 |                 |
-| &#10004;             |                                                             |                 |                 |
-|                      |                                                             |                 |                 |
-|                      |                                                             |                 |                 |    
-| &#10004;             |                                                             | Learn to        |                 |         
+     
 
-Date:        | Task Details                                                        | Priority         |Status
+Date:        | Task Details                                                        | Priority         |Status           |
 ------------ | --------------------------------------------------------------------|------------------|-----------------|
-             | ## 1.d) A more complex state, debugging React apps ##               |                  |                 |   -                          |  - Complex state                                                    |                  |                 |
+             | ## 1.d) A more complex state, debugging React apps ##               |                  | &#10004;        |   -                          |  - Complex state                                                    |                  |                 |
              |  - Handling arrays                                                  |                  |                 |
              |   - Conditional rendering                                           |                  |                 |
              |                                                                     |                  |                 |
