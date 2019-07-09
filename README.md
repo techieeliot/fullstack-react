@@ -37,7 +37,7 @@
 
 
 
-| Priority | Task Details | status | Project(s) | Date |
+| Date | Task Details        |Priority | Status      | 
 | :------: | ------ | ------ | ------------ | :-------: |
 |	 | Course | [CS50](https://courses.edx.org/courses/course-v1%3AHarvardX%2BCS50%2BX/)  on edX |  ||
 |  | Course |  [Team Treehouse](https://teamtreehouse.com/tracks) or [Codeschool](https://www.codeschool.com/learn/html-css)'s HTML, CSS Path (Paid) OR Shay Howe's [HTML,CSS](http://learn.shayhowe.com/html-css/) Course |    |   |
