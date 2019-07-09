@@ -35,13 +35,7 @@
 ##  Sprint 2 - July 10- 22,2019 ##
 
 ------
-   Date:       |                 Task Details                           |Priority             |  Status            |                 |
----------------|--------------------------------------------------------|---------------------|--------------------|-----------------|
-                 ## 1.d:- A more complex state, debugging React app|High|Not Started
-                  - [x] Complex state |High|Not Started
-                  - [x] Handling arrays|High|Not Started
-                  - [x] Handling arrays|High|Not Started
-                  - [ ] Exercises|High|Not Started
+
 
      Date | Task Details   | Priority | Status
 ------------ | -------------
@@ -51,4 +45,16 @@
  | - [x] Handling arrays|High|Not Started
  | - [ ] Exercises|High|Not Started
 
-
+| Date  | Task Details  |  Priority | Status  |
+|---|---|---|---|
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
