@@ -51,7 +51,9 @@
 |   |  - [x] Complex state |High|Not Started | High  | Not Started  |
 |   |  - [x] Handling arrays|High|Not Started | High  |  Not Started |
 |   |  - [x] Handling arrays|High|Not Started | High  | Not Started  |
-|   |  - [ ] Exercises|High|Not Started |   | High  |Not Started
+
+
+|   |  - [x] Exercises|High|Not Started |   | High  |Not Started
 |   |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
