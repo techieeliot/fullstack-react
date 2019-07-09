@@ -49,5 +49,6 @@
 
 Date:        | Task Details                                                        | Priority         |Status
 ------------ | --------------------------------------------------------------------|------------------|-----------------|
-Content from | 1.d) A more complex state, debugging React apps                                          |                  |                            |    - Complex state
-Content in t |    - Handling arrays                                                                     | Content in the s |                 |
+             | 1.d) A more complex state, debugging React apps                                          |                  |                               - Complex state
+                - Handling arrays 
+                - Conditional rendering            |
