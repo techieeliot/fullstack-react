@@ -47,7 +47,7 @@
 |                      |                                                             |                 |                 |    
 | &#10004;             |                                                             | Learn to        |                 |         
 
-Date:        | Task Deatails                                                        | Priority         |Status
------------- | ---------------------------------------------------------------------|------------------|-----------------|
-Content from | Content from cell 2jkjkvgg                                           |                  |                 |
-Content in t |                                                                      | Content in the s |                 |
+Date:        | Task Details                                                        | Priority         |Status
+------------ | --------------------------------------------------------------------|------------------|-----------------|
+Content from | 1.d) A more complex state, debugging React apps                                          |                  |                            |    - Complex state
+Content in t |    - Handling arrays                                                                     | Content in the s |                 |
