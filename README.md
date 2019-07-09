@@ -39,7 +39,7 @@
 
 
 | Date:                |    Learn React with Kent C. Dodds](https://youtu.be/zthIU   | Priority        | Status          |                  |                      |                                                             |                 |                 |
-|----------------------| ------------------------------------------------------------|-----------------|-----------------|                 | &#10004;             |                                                             |                 |                 |
+|----------------------| ------------------------------------------------------------|-----------------|-----------------|                 | &#10004;             |    hhhj                                                         |                 |                 |
 |                      |                                                             |                 |                 | 
 |	                     |           on edX                                            |                 |                 |
 | &#10004;             |                                                             |                 |                 |
@@ -47,4 +47,7 @@
 |                      |                                                             |                 |                 |    
 | &#10004;             |                                                             | Learn to        |                 |         
 
-
+Date:        | Learn React with Kent C. Dodds](https://youtu.be/zthIU               |
+------------ | ---------------------------------------------------------------------|
+Content from | Content from cell 2jkjkvgg                                           |
+Content in the first column                                                         | Content in the second column
