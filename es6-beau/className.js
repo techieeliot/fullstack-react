@@ -10,14 +10,16 @@ let jasmine = new Princess('Jasmin', "Aladin");
 
 console.log(jasmine);
 
-const articleCenter = document.getElementsByClassName('center');
+const articleCenter = document.getElementsByClassName('center')[0];
+let createNewSection = document.createElement('section');
+let createHeader = document.createElement('h1');
 
-articleCenter.addEventListener('click', outputPrincess());
+articleCenter.appendChild(createNewSection.appendChild(createHeader));
 
-outputPrincess() {
-    articleCenter.innnHTML('<section><h1>${name}</h1></section>');
-}
 
+articleCenter.addEventListener('click', articleCenter.appendChild(createNewSection.appendChild(createHeader)));
+
+document.getElementsByClassName('center').write(document.createElement('section'))
 
 
 
