@@ -9,8 +9,8 @@
 | Date | Task Details                           | Priority | Status      |
 | ---- | -------------------------------------- | -------- | ----------- |
 |      | _Complete the Udemy React MovieDb App_ | High     | Not Started |
-|      | \_Scrimba - React\_\_                  | High     | Not Started | High | Not Started |
-|      |                                        |          |
+|      | \_Scrimba - React\_\_                  | High     | Not Started |
+|      | Part 1 (FSO)                           | High     | Not Sarted  |
 
 ---
 
