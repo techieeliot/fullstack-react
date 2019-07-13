@@ -25,11 +25,11 @@
 | Date  | Task Details                          | Priority    | Status      |
 | ----- | ------------------------------------- | ----------- | ----------- |
 |       | Part2 - Communicating with a server:  | High        | Not Started |
-|       | - [x] Rendering a collection, modules |
-|       |       Forms                            | Not Started | High        | Not Started |
-|       | - [x] Getting data from server        | High        | Not Started | High | Not Started |
-|       | - [x] Altering data in server         | High        | Not Started | High | Not Started |
-|       | - [x] Adding styles to react app      | High        | Not Started | High | Not Started |
+|       | - [x] Rendering a collection, modules | High        | Not Started |
+|       |       Forms                           |High         | Not Started |
+|       | - [x] Getting data from server        | High        | Not Started | 
+|       | - [x] Altering data in server         | High        | Not Started | 
+|       | - [x] Adding styles to react app      | High        | Not Started | 
 |       |                                       |             |             |
 
 ---
