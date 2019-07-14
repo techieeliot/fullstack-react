@@ -1,0 +1,33 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background: ghostwhite;
+    text-align: center;
+}
+
+header, main, footer {
+    background: lightgreen;
+}
+nav li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#bottom {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+

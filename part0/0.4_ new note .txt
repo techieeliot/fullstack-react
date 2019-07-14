@@ -1,0 +1,38 @@
+title 0.4: new note 
+#https://fullstack-exampleapp.herokuapp.com/notes
+
+participant Browser as b
+participant Server as s
+b->s: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+s-->b: HTML- Code 301
+note over b
+Content and Date data
+object found at /note
+end note
+b->s: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+s-->b: HTML - Code 200
+note over b
+HTML code of the header and 
+form received in the window
+end note
+b->s: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+s-->b: CSS main.css
+note over b
+container and notes 
+styling received
+in the window
+end note
+b->s: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+s-->b: JS - main.js
+note over b
+Browser runs to open and 
+send request for
+json data
+end note
+b->s: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+s-->b: JSON [{"content":"HTML is easy","date":"2019-05-23T17:30:31.098Z"},...\n {"content":"was","date":"2019-07-13T21:53:30.994Z"}]
+note over b
+Browser funs event handler
+to build list items for each
+index object's content
+end note

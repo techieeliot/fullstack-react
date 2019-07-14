@@ -1,0 +1,21 @@
+title 0.6: new note
+# url: https://fullstack-exampleapp.herokuapp.com/spa
+# Eliot Sanford reviewed developer tools
+
+participant Browser as b
+participant Server as s
+note left of b
+input submit and
+event handler run to push 
+list item onto notes
+index object's content
+end note
+b->s: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note right of s
+status 201 response sent back
+end note
+s-->b: STATUS 201 response sent back with message created
+note over b
+Browser runs event handler on 
+201 status to print to console
+end note
