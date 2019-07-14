@@ -1,0 +1,36 @@
+title 0.5: Single page app
+# I ran this url: https://fullstack-exampleapp.herokuapp.com/spa
+# Eliot Sanford reviewed developer tools
+
+participant Browser as b
+participant Server as s
+note over b
+Visit page url
+end note
+b->s: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+s-->b: HTML - Code 200
+note over b
+HTML code of the header and 
+form received in the window
+end note
+b->s: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+s-->b: CSS main.css
+note over b
+container and notes 
+styling received
+in the window
+end note
+b->s: https://fullstack-exampleapp.herokuapp.com/spa.js
+s-->b: JS - spa.js
+note over b
+Browser runs to open and 
+send request for
+json data
+end note
+b->s: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+s-->b: JSON [{"content":"HTML is easy","date":"2019-05-23T17:30:31.098Z"},...]
+note over b
+Browser runs event handler
+to build list items for each
+index object's content
+end note
