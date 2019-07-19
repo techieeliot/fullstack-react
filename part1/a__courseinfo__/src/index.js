@@ -13,7 +13,7 @@ const App = () => {
              has a section name and number of exercises */
             {
                 section: `Fundamentals of React`,
-                exercises: 10,
+                exercises: 11,
             },
             {
                 section: `Using props to pass data`,
@@ -40,7 +40,7 @@ const App = () => {
         )
     }
 
-    
+
     const Content = (props) => {
         return (
             <div>
