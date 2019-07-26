@@ -10,9 +10,9 @@ const Button = (props) => {
 }
 const Stats = (props) => {
     console.log(props);
-    return(        
-        <div>
-            <table>
+    return( 
+        <table>     
+            <tbody>
                 <tr>
                     <td>good</td>
                     <td>{props.good}</td>
@@ -37,8 +37,9 @@ const Stats = (props) => {
                     <td>positive</td>
                     <td>{props.positive}%</td>
                 </tr>
-            </table>
-        </div> 
+            </tbody>
+        </table>
+    
     )
 }
 
