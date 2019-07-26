@@ -1,19 +1,50 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
+const Button = (props) => {
+    return(
+    <button onClick={props.handleClick}>
+        {props.text}
+    </button>
+    )
+}
 const Stats = (props) => {
     console.log(props);
     return(        
         <div>
-            <p>good {props.good}</p>
-            <p>neutral {props.neutral}</p>
-            <p>bad {props.bad}</p>
-            <p>all {props.total}</p> 
-            <p>average {props.average}</p>
-            <p>positive {props.positive}%</p>
+            <table>
+                <tr>
+                    <td>good</td>
+                    <td>{props.good}</td>
+                </tr>
+                <tr>
+                    <td>neutral</td>
+                    <td>{props.neutral}</td>
+                </tr>
+                <tr>
+                    <td>bad</td>
+                    <td>{props.bad}</td>
+                </tr>
+                <tr>
+                    <td>all</td>
+                    <td>{props.total}</td> 
+                </tr>
+                <tr>
+                    <td>average</td>
+                    <td>{props.average}</td>
+                </tr>
+                <tr>
+                    <td>positive</td>
+                    <td>{props.positive}%</td>
+                </tr>
+            </table>
         </div> 
     )
 }
+
+const Display = props => <div>{props.display}</div>
+
+
 
 const App = () => {
     const [good, setGood] = useState(0)
@@ -29,12 +60,12 @@ const App = () => {
     const handleBad = (value) => setBad(value)
 
     const display = (total) ? <Stats 
-        good={good}
-        neutral={neutral}
-        bad={bad}
-        total={total}
-        average={average}
-        positive={positive}
+    good={good}
+    neutral={neutral}
+    bad={bad}
+    total={total}
+    average={average}
+    positive={positive}
     />
     : "No Feedback Given";
 
@@ -42,16 +73,16 @@ const App = () => {
   return (
     <div>
         <div> 
-            <h1>give feeback</h1>
-            <button onClick={()=> handleGood(good + 1)}>good</button>
-            <button onClick={()=> handleNeutral(neutral + 1)}>neutral</button>
-            <button onClick={()=> handleBad(bad + 1)}>bad</button>
+            <h1>give feedback</h1>
+            <Button handleClick={() => handleGood(good + 1)} text="good"/>
+            <Button handleClick={() => handleNeutral(neutral + 1)} text="neutral" />
+            <Button handleClick={() => handleBad(bad + 1)} text="bad"/>
         </div>
 
 
         <div>
             <h1>statistics</h1>
-            {display}
+            <Display display={display} />
         </div>        
     </div>
   )
