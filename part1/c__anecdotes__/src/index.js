@@ -14,23 +14,32 @@ const Quote = props => <div>{props.quote}</div>
 
 const App = (props) => {
   const [selected, setSelected] = useState(0)
-
+  const [points, setPoints] = useState(new Array(anecdotes.length).fill(0))
+  
   const handleSelected = (value) => setSelected(value)
-
+  
   function randomWholeNum() {
     return Math.floor(Math.random() * (anecdotes.length));
   }
-
-  console.log(anecdotes.length)
-
+  
   const quote = <p>{anecdotes[selected]}</p>
+  
+  const handlePoints = () => {
+    const copy =  [...points]
+    copy[selected] += 1
+    setPoints(copy)
+  }
 
-
+  console.log(points)
 
   return (
     <div>
       <Quote quote={quote} />
-      <Button handleClick={() => handleSelected(randomWholeNum)} text="next anecdote" />
+      <p>has {points[selected]} votes</p>
+      <div className="buttons-flex">
+        <Button handleClick={() => handlePoints()} text="vote" />
+        <Button handleClick={() => handleSelected(randomWholeNum)} text="next anecdote" />
+      </div>
     </div>
   )
 }
