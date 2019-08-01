@@ -9,12 +9,28 @@ const Button = (props) => {
   )
 }
 
-const Quote = props => <div>{props.quote}</div>
+const Quote = props => {
+  return(
+  <header>
+    <h1>Anecdote of the Day</h1>
+    <div>{props.quote}</div>
+  </header>
+  )
+}
 
+const Display = props => {
+  return(
+    <section>
+      <h1>Anecdote with the Most Votes</h1>
+      <div>{props.value}</div>
+    </section>
+  )
+}
 
 const App = (props) => {
   const [selected, setSelected] = useState(0)
   const [points, setPoints] = useState(new Array(anecdotes.length).fill(0))
+  // const [value, setValue] = useState(0)
   
   const handleSelected = (value) => setSelected(value)
   
@@ -24,22 +40,29 @@ const App = (props) => {
   
   const quote = <p>{anecdotes[selected]}</p>
   
+  // const topVote = <p>{anecdotes[mostPopularQuote]}</p>
+  
   const handlePoints = () => {
     const copy =  [...points]
     copy[selected] += 1
     setPoints(copy)
   }
-
-  console.log(points)
-
+  
+  const mostVotes = Math.max(...points)
+  const mostPopularQuote = points.indexOf(mostVotes)
+  console.log(anecdotes[mostPopularQuote]);
+  const value = <p>{anecdotes[mostPopularQuote]}</p>
+  
   return (
     <div>
-      <Quote quote={quote} />
+      <Quote quote={quote} points={points} />
       <p>has {points[selected]} votes</p>
       <div className="buttons-flex">
         <Button handleClick={() => handlePoints()} text="vote" />
         <Button handleClick={() => handleSelected(randomWholeNum)} text="next anecdote" />
       </div>
+      <Display value={value} />
+      <p>has {points[mostPopularQuote]} votes</p>
     </div>
   )
 }
