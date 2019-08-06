@@ -2,7 +2,7 @@
 
 ## w3Develops React Study Group Summer 2019
 
-## July 10- 22,2019
+## July 10- August 5,2019
 
 ---
 
