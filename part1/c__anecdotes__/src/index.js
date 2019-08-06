@@ -39,7 +39,7 @@ const App = (props) => {
   }
   
   const quote = <p>{anecdotes[selected]}</p>
-  
+
   // const topVote = <p>{anecdotes[mostPopularQuote]}</p>
   
   const handlePoints = () => {
@@ -50,7 +50,7 @@ const App = (props) => {
   
   const mostVotes = Math.max(...points)
   const mostPopularQuote = points.indexOf(mostVotes)
-  console.log(anecdotes[mostPopularQuote]);
+  // console.log(anecdotes[mostPopularQuote]);
   const value = <p>{anecdotes[mostPopularQuote]}</p>
   
   return (
